@@ -15,7 +15,7 @@ import com.baseclasspractice.BaseClass_Practice;
 public class Myinfo_ContactDetails extends BaseClass_Practice {
 	public static WebDriver driver;
 	 @FindBy(xpath="//a[text()='Contact Details']")
-	 WebElement contactdetails;
+	 private WebElement contactdetails;
      @FindBy(xpath="//label[text()='Street 1']/parent::div/following-sibling::div/input")
 	 WebElement street1; 
      @FindBy(xpath = "//label[text()='Street 2']/parent::div/following-sibling::div/input")
